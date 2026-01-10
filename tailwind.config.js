@@ -63,15 +63,15 @@ export default {
           light: '#1655b8'
         },
         book: {
-          DEFAULT: '#faf9f7',
+          DEFAULT: '#fff',
           cream: '#f5f3f0',
           paper: '#ffffff',
           dots: '#f7f5f2'
         },
         // Pattern colors
         dots: {
-          DEFAULT: '#444cf7',
-          bg: '#f7f5f2'
+          DEFAULT: '#f44cf7',
+          bg: '#fff'
         }
       }
     },
