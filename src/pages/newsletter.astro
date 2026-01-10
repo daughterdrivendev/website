@@ -1,0 +1,36 @@
+---
+import BookLayout from '../layouts/BookLayout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<BookLayout
+  title="Newsletter - daughterdriven.dev"
+  description="Subscribe to get updates on the book for engineers navigating parenthood."
+  hideNewsletterForm={true}
+>
+  <div class="px-4 py-8 sm:p-8 lg:p-12">
+    <div class="max-w-lg lg:max-w-2xl mx-auto lg:mx-0 lg:ml-8">
+      <header class="mb-8 lg:mb-12">
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-serif font-light tracking-tight lg:text-sidebar">Newsletter</h1>
+      </header>
+
+      <div class="space-y-6 lg:space-y-8">
+        <p class="text-gray-700 lg:text-lg lg:leading-relaxed">
+          The goal is to keep the noise down while occasionally sharing updates about the book, blog posts, and interviews, but mostly to ask for your participation, stories, anecdotes, input, and feedback.
+        </p>
+
+        <p class="text-gray-700 lg:text-lg lg:leading-relaxed">
+          If this sounds interesting to you, feel free to subscribe and/or share it with anyone you think might enjoy it as well.
+        </p>
+
+        <div class="lg:max-w-md">
+          <NewsletterForm variant="light" layout="responsive" />
+        </div>
+
+        <p class="text-gray-700 text-sm lg:text-base">
+          You can also <mark>browse the <a href="https://buttondown.com/daughterdrivendev/archive/" class="text-sidebar underline hover:text-sidebar-light">newsletter archive</a></mark> to see past issues.
+        </p>
+      </div>
+    </div>
+  </div>
+</BookLayout>

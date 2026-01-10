@@ -1,0 +1,130 @@
+---
+interface Props {
+  variant?: 'light' | 'dark' | 'dark-inverse';
+  layout?: 'stacked' | 'inline' | 'responsive';
+  size?: 'default' | 'compact';
+  shape?: 'pill' | 'rounded';
+}
+
+const {
+  variant = 'light',
+  layout = 'stacked',
+  size = 'default',
+  shape = 'pill'
+} = Astro.props;
+
+const formId = `newsletter-form-${Math.random().toString(36).substring(2, 9)}`;
+const emailId = `email-${formId}`;
+const buttonId = `button-${formId}`;
+const messageId = `message-${formId}`;
+
+const isLight = variant === 'light';
+const isDark = variant === 'dark';
+const isDarkInverse = variant === 'dark-inverse';
+const isInline = layout === 'inline';
+const isResponsive = layout === 'responsive';
+const isCompact = size === 'compact';
+const isPill = shape === 'pill';
+
+const inputClasses = [
+  isInline ? 'flex-1' : isResponsive ? 'w-full lg:flex-1 lg:w-auto' : 'w-full',
+  isCompact ? 'px-3 py-2 text-sm' : 'px-4 py-3 text-sm',
+  isPill ? 'rounded-full' : 'rounded',
+  'focus:outline-none transition-all',
+  isLight && 'bg-white border border-gray-400 focus:ring-2 focus:ring-sidebar focus:border-sidebar',
+  isDark && 'bg-white/10 border border-white/30 text-white placeholder-white/60 focus:ring-2 focus:ring-white/50 focus:border-white/50',
+  isDarkInverse && 'bg-white/10 border border-white/30 text-white placeholder-white/60 focus:ring-1 focus:ring-white/50'
+].filter(Boolean).join(' ');
+
+const buttonClasses = [
+  isInline ? '' : isResponsive ? 'w-full lg:w-auto' : 'w-full',
+  isCompact ? 'px-3 py-2 text-xs' : 'px-8 py-3 text-sm',
+  'font-semibold',
+  isPill ? 'rounded-full' : 'rounded',
+  'focus:outline-none transition-all disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap',
+  isLight && 'bg-sidebar text-white hover:bg-sidebar-light focus:ring-2 focus:ring-offset-2 focus:ring-sidebar',
+  (isDark || isDarkInverse) && 'bg-white text-sidebar hover:bg-white/90 focus:ring-2 focus:ring-offset-2 focus:ring-offset-sidebar focus:ring-white',
+  isDarkInverse && 'focus:ring-1'
+].filter(Boolean).join(' ');
+
+const formClasses = [
+  isInline ? 'flex gap-3' : isResponsive ? 'flex flex-col lg:flex-row gap-3' : 'flex flex-col gap-3',
+  isCompact && 'space-y-2'
+].filter(Boolean).join(' ');
+
+const messageBaseClasses = isCompact ? 'mt-2 text-xs' : 'mt-3 text-sm';
+const successClasses = isLight ? 'text-green-700' : 'text-green-400';
+const errorClasses = isLight ? 'text-red-700' : 'text-red-400';
+---
+
+<div class="newsletter-form-wrapper" data-form-id={formId}>
+  <form id={formId} class={formClasses}>
+    <label for={emailId} class="sr-only">Email Address</label>
+    <input
+      type="email"
+      id={emailId}
+      name="email"
+      placeholder={isCompact ? "Email" : "Email Address"}
+      class={inputClasses}
+      required
+    />
+    <button
+      type="submit"
+      id={buttonId}
+      class={buttonClasses}
+    >
+      SUBSCRIBE
+    </button>
+  </form>
+  <div
+    id={messageId}
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+    class={`${messageBaseClasses} hidden`}
+  ></div>
+</div>
+
+<script define:vars={{ formId, emailId, buttonId, messageId, successClasses, errorClasses, messageBaseClasses }}>
+  const form = document.getElementById(formId);
+  if (form) {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const emailInput = document.getElementById(emailId);
+      const submitButton = document.getElementById(buttonId);
+      const messageDiv = document.getElementById(messageId);
+
+      submitButton.disabled = true;
+      submitButton.textContent = 'SUBSCRIBING...';
+      messageDiv.classList.add('hidden');
+
+      const formData = new FormData();
+      formData.append('email', emailInput.value);
+      formData.append('embed', '1');
+
+      try {
+        const response = await fetch('https://buttondown.com/api/emails/embed-subscribe/daughterdrivendev', {
+          method: 'POST',
+          body: formData,
+          mode: 'cors'
+        });
+
+        if (response.ok) {
+          messageDiv.textContent = 'Thanks for subscribing! Check your email to confirm.';
+          messageDiv.className = `${messageBaseClasses} ${successClasses}`;
+          emailInput.value = '';
+        } else {
+          messageDiv.textContent = 'Something went wrong. Please try again.';
+          messageDiv.className = `${messageBaseClasses} ${errorClasses}`;
+        }
+      } catch {
+        messageDiv.textContent = 'Network error. Please check your connection and try again.';
+        messageDiv.className = `${messageBaseClasses} ${errorClasses}`;
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = 'SUBSCRIBE';
+      }
+    });
+  }
+</script>
