@@ -1,0 +1,15 @@
+<div reversed class="postlist">
+{%- for post in postslist | reverse %}
+	<article class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<h2>
+			<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		</h2>
+		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">
+			{{ post.date | readableDate("MM LLLL yyyy") }}
+			<!-- add tags here -->
+		</time>
+		<small>by {{post.data.author}}</small>
+		<p>{{ post.templateContent | htmlExcerpt | safe }}</p>
+	</article>
+{%- endfor %}
+</div>
