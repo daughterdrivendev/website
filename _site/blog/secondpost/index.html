@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>This is my second post with a much longer title.</title>
-		<meta name="description" content="This is a post on My Blog about leveraging agile frameworks.">
+		<title>Winter is here.</title>
+		<meta name="description" content="This post talks about the horrors of the winter and our kids being sick.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="DaughterDrivenDev">
 		
 		
@@ -355,7 +355,7 @@ Index page only
 	max-width: 40em;
 }
 
-#cover h2, h3, h4{
+#cover h2,#cover h3,#cover h4{
 	color: #f5f7f6;
 }
 
@@ -382,7 +382,8 @@ BLOG
 	padding: 0;
 }
 
-/* ------- POSTS -------- */
+/* ------- POSTLIST ITEMS -------- */
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -414,6 +415,10 @@ BLOG
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
+/* ------- POSTS -------- */
+.post h2 {margin-top: 1.4em; font-size: 2em;}
+.post h3 {margin-top: 2em; font-size: 1.4em;}
+.post-metadata .author {padding-right: 3em; font-weight: 300; margin-left: -1.2em;}
 
 /* ------- TAGS -------- */
 /* Tags */
@@ -450,7 +455,6 @@ DESIGN GIMMICKS
 .highlight,
   mark {
     font-style: normal;
-    margin: 0 -0.4em;
     padding: 0.1em 0.4em;
     border-radius: 0.8em 0.3em;
     background: transparent;
@@ -464,8 +468,11 @@ DESIGN GIMMICKS
     box-decoration-break: clone;
   }
 
-/* add function for fandom indexes 
-.postlist-item:nth-child(7n) .highlight {
+
+/*** ---- highlighter for tags in posts ----*/
+
+/* add function for fandom indexes 	*/
+.post-metadata *:nth-child(2) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(98, 225, 0, 0.1),
@@ -474,7 +481,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(3n) .highlight {
+.post-metadata *:nth-child(3) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 132, 0, 0.1),
@@ -483,7 +490,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(5n) .highlight {
+.post-metadata *:nth-child(4) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(0, 149, 255, 0.1),
@@ -492,7 +499,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(2n) .highlight {
+.post-metadata *:nth-child(5) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 0, 255, 0.1),
@@ -500,7 +507,7 @@ DESIGN GIMMICKS
       rgba(255, 0, 255, 0.3)
     );
 }
-	*/
+
 
 /* ------- COFFEE STAIN -------- */
 #coffee-stain {
@@ -772,20 +779,30 @@ pre[class*="language-diff-"] {
 					
 
 
-<h1 id="this-is-my-second-post-with-a-much-longer-title">This is my second post with a much longer title.</h1>
+
 <ul class="post-metadata">
-	<li><time datetime="2018-07-04">04 July 2018</time></li>
-	<li><a href="/tags/number-2/" class="post-tag">number 2</a></li>
+	<li><time datetime="2026-01-07">07 January 2026</time></li>
+	<li class="author">by Marcin</li>
+		<li>
+			<a href="/tags/newsletter/" class="post-tag highlight">newsletter</a>
+		</li>
 </ul>
+<article class="post">
+	<h2 id="winter-is-here">Winter is here.</h2>
+<p>Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights and trains. In the ideal movie version of parenthood at this time of year, parents build snowmen and go sledding down the perfect hill, scarves flapping in the wind.</p>
+<h3 id="reality-however-looks-a-bit-different">Reality, however, looks a bit different.</h3>
+<p>The most anticipated information for us is posted on the display board at the kindergarten entrance. During this season, kids do not collect and trade Pokémon cards. They collect and trade illnesses.</p>
+<p>A short summary from the board in our youngest child’s group during the last two weeks before Christmas: gastrointestinal infections (multiple times), hand, foot, and mouth disease (multiple times), scarlet fever (once), COVID (a lot).</p>
+<p>And of course, the daily horror continues into the new year. Questions start popping up in our heads. How do you politely, without sounding like a terrible person, tell your child that maybe they should not hug and wrestle with Paul, whose entire T-shirt is covered in nasal secretions?</p>
+<h3 id="other-questions-follow-quickly">Other questions follow quickly.</h3>
+<p>How do you deal with the fallout from all of this? How do you throw away carefully planned schedules and time-boxed calendars? How do you tell your team that a deadline that once seemed very achievable might now be a stretch? Because yes, this small human needs us right now.</p>
+<p>Every winter, we hear dozens of stories from parents. Some are painfully funny. Others create an instant sense of solidarity. And occasionally, you hear a genuinely helpful idea about how to cope with all of this.</p>
+<p>So what is your story? How do you cope?</p>
+<h3 id="we-are-looking-forward-to-hearing-from-you">We are looking forward to hearing from you!</h3>
+<p>Marcin &amp;&amp; Ola</p>
 
-<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
-<h2 id="section-header">Section Header</h2>
-<p><a href="/blog/firstpost/">First post</a>
-<a href="/blog/thirdpost/">Third post</a></p>
-<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/firstpost/">This is my first post.</a></li><li class="links-nextprev-next">Next →<br><a href="/blog/thirdpost/">This is my third post.</a></li>
+</article>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/firstpost/">Hello fellow parent in tech,</a></li>
 </ul>
 
 				</main>
@@ -797,7 +814,7 @@ pre[class*="language-diff-"] {
 			</footer>
 		</section>
 
-		<!-- This page `/blog/secondpost/` was built on 2026-02-09T13:29:05.062Z -->
+		<!-- This page `/blog/secondpost/` was built on 2026-02-09T14:51:16.736Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

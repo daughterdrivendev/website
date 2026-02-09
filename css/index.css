@@ -343,7 +343,7 @@ Index page only
 	max-width: 40em;
 }
 
-#cover h2, h3, h4{
+#cover h2,#cover h3,#cover h4{
 	color: #f5f7f6;
 }
 
@@ -370,7 +370,8 @@ BLOG
 	padding: 0;
 }
 
-/* ------- POSTS -------- */
+/* ------- POSTLIST ITEMS -------- */
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -402,6 +403,10 @@ BLOG
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
+/* ------- POSTS -------- */
+.post h2 {margin-top: 1.4em; font-size: 2em;}
+.post h3 {margin-top: 2em; font-size: 1.4em;}
+.post-metadata .author {padding-right: 3em; font-weight: 300; margin-left: -1.2em;}
 
 /* ------- TAGS -------- */
 /* Tags */
@@ -438,7 +443,6 @@ DESIGN GIMMICKS
 .highlight,
   mark {
     font-style: normal;
-    margin: 0 -0.4em;
     padding: 0.1em 0.4em;
     border-radius: 0.8em 0.3em;
     background: transparent;
@@ -452,8 +456,11 @@ DESIGN GIMMICKS
     box-decoration-break: clone;
   }
 
-/* add function for fandom indexes 
-.postlist-item:nth-child(7n) .highlight {
+
+/*** ---- highlighter for tags in posts ----*/
+
+/* add function for fandom indexes 	*/
+.post-metadata *:nth-child(2) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(98, 225, 0, 0.1),
@@ -462,7 +469,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(3n) .highlight {
+.post-metadata *:nth-child(3) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 132, 0, 0.1),
@@ -471,7 +478,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(5n) .highlight {
+.post-metadata *:nth-child(4) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(0, 149, 255, 0.1),
@@ -480,7 +487,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(2n) .highlight {
+.post-metadata *:nth-child(5) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 0, 255, 0.1),
@@ -488,7 +495,7 @@ DESIGN GIMMICKS
       rgba(255, 0, 255, 0.3)
     );
 }
-	*/
+
 
 /* ------- COFFEE STAIN -------- */
 #coffee-stain {

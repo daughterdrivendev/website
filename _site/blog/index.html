@@ -355,7 +355,7 @@ Index page only
 	max-width: 40em;
 }
 
-#cover h2, h3, h4{
+#cover h2,#cover h3,#cover h4{
 	color: #f5f7f6;
 }
 
@@ -382,7 +382,8 @@ BLOG
 	padding: 0;
 }
 
-/* ------- POSTS -------- */
+/* ------- POSTLIST ITEMS -------- */
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -414,6 +415,10 @@ BLOG
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
+/* ------- POSTS -------- */
+.post h2 {margin-top: 1.4em; font-size: 2em;}
+.post h3 {margin-top: 2em; font-size: 1.4em;}
+.post-metadata .author {padding-right: 3em; font-weight: 300; margin-left: -1.2em;}
 
 /* ------- TAGS -------- */
 /* Tags */
@@ -450,7 +455,6 @@ DESIGN GIMMICKS
 .highlight,
   mark {
     font-style: normal;
-    margin: 0 -0.4em;
     padding: 0.1em 0.4em;
     border-radius: 0.8em 0.3em;
     background: transparent;
@@ -464,8 +468,11 @@ DESIGN GIMMICKS
     box-decoration-break: clone;
   }
 
-/* add function for fandom indexes 
-.postlist-item:nth-child(7n) .highlight {
+
+/*** ---- highlighter for tags in posts ----*/
+
+/* add function for fandom indexes 	*/
+.post-metadata *:nth-child(2) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(98, 225, 0, 0.1),
@@ -474,7 +481,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(3n) .highlight {
+.post-metadata *:nth-child(3) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 132, 0, 0.1),
@@ -483,7 +490,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(5n) .highlight {
+.post-metadata *:nth-child(4) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(0, 149, 255, 0.1),
@@ -492,7 +499,7 @@ DESIGN GIMMICKS
     );
 }
 
-.postlist-item:nth-child(2n) .highlight {
+.post-metadata *:nth-child(5) .highlight {
 	background-image: linear-gradient(
       to right,
       rgba(255, 0, 255, 0.1),
@@ -500,7 +507,7 @@ DESIGN GIMMICKS
       rgba(255, 0, 255, 0.3)
     );
 }
-	*/
+
 
 /* ------- COFFEE STAIN -------- */
 #coffee-stain {
@@ -607,59 +614,26 @@ DESIGN GIMMICKS
 
 <div reversed="" class="postlist">
 	<article class="postlist-item">
-		<h2 id="this-is-a-fifth-post-draft">
-			<a href="/blog/fifthpost/" class="postlist-link">This is a fifth post (draft)</a>
+		<h2 id="winter-is-here">
+			<a href="/blog/secondpost/" class="postlist-link">Winter is here.</a>
 		</h2>
-		<time class="postlist-date" datetime="2023-01-23">
-			01 January 2023
+		<time class="postlist-date" datetime="2026-01-07">
+			01 January 2026
 			<!-- add tags here -->
 		</time>
-		<small>by jemand</small>
-		<p></p><p>This is a draft post.  A book for engineers navigating the beautiful chaos of parenthood. Real stories, practical insights, and honest conversations about thriving in both worlds. Interested in updates on the book? Join the newsletter to stay informed. This is a draft post.  A book for engineers navigating the beautiful chaos of parenthood. Real stories, practical insights, and honest conversations about thriving in both worlds. Interested in updates on the book? Join the newsletter to stay informed.</p><p></p>
+		<small>by Marcin</small>
+		<p></p><p>Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights and trains. In the ideal movie version of parenthood at this time of year, parents build snowmen and go sledding down the perfect hill, scarves flapping in the wind.</p><p></p>
 	</article>
 	<article class="postlist-item">
-		<h2 id="this-is-my-fourth-post">
-			<a href="/blog/fourthpost/" class="postlist-link">This is my fourth post</a>
+		<h2 id="hello-fellow-parent-in-tech">
+			<a href="/blog/firstpost/" class="postlist-link">Hello fellow parent in tech,</a>
 		</h2>
-		<time class="postlist-date" datetime="2018-09-30">
-			09 September 2018
+		<time class="postlist-date" datetime="2025-12-19">
+			12 December 2025
 			<!-- add tags here -->
 		</time>
-		<small>by </small>
-		<p></p><p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p><p></p>
-	</article>
-	<article class="postlist-item">
-		<h2 id="this-is-my-third-post">
-			<a href="/blog/thirdpost/" class="postlist-link">This is my third post.</a>
-		</h2>
-		<time class="postlist-date" datetime="2018-08-24">
-			08 August 2018
-			<!-- add tags here -->
-		</time>
-		<small>by jemand</small>
-		<p></p><p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p><p></p>
-	</article>
-	<article class="postlist-item">
-		<h2 id="this-is-my-second-post-with-a-much-longer-title">
-			<a href="/blog/secondpost/" class="postlist-link">This is my second post with a much longer title.</a>
-		</h2>
-		<time class="postlist-date" datetime="2018-07-04">
-			07 July 2018
-			<!-- add tags here -->
-		</time>
-		<small>by </small>
-		<p></p><p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p><p></p>
-	</article>
-	<article class="postlist-item">
-		<h2 id="this-is-my-first-post">
-			<a href="/blog/firstpost/" class="postlist-link">This is my first post.</a>
-		</h2>
-		<time class="postlist-date" datetime="2018-05-01">
-			05 May 2018
-			<!-- add tags here -->
-		</time>
-		<small>by </small>
-		<p></p><p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p><p></p>
+		<small>by Ola</small>
+		<p></p><p>Thank you, you decided to become a part of our journey. In our first newsletter, we’d like to introduce ourselves quickly and explain how this project started.</p><p></p>
 	</article>
 </div>
 
@@ -674,7 +648,7 @@ DESIGN GIMMICKS
 			</footer>
 		</section>
 
-		<!-- This page `/blog/` was built on 2026-02-09T13:29:05.062Z -->
+		<!-- This page `/blog/` was built on 2026-02-09T14:51:16.735Z -->
 		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

@@ -5,95 +5,47 @@
   <subtitle>Daughter Driven Development. Parents in Tech.</subtitle>
   <link href="https://www.daughterdriven.dev/feed/feed.xml" rel="self" />
   <link href="https://www.daughterdriven.dev/" />
-  <updated>2023-01-23T00:00:00Z</updated>
+  <updated>2026-01-07T00:00:00Z</updated>
   <id>https://www.daughterdriven.dev/</id>
   <author>
     <name>Ola Gasidlo-Brändel, Marcin Skirzynski</name>
   </author>
   <entry>
-    <title>This is a fifth post (draft)</title>
-    <link href="https://www.daughterdriven.dev/blog/fifthpost/" />
-    <updated>2023-01-23T00:00:00Z</updated>
-    <id>https://www.daughterdriven.dev/blog/fifthpost/</id>
-    <content type="html">&lt;p&gt;This is a draft post.  A book for engineers navigating the beautiful chaos of parenthood. Real stories, practical insights, and honest conversations about thriving in both worlds. Interested in updates on the book? Join the newsletter to stay informed. This is a draft post.  A book for engineers navigating the beautiful chaos of parenthood. Real stories, practical insights, and honest conversations about thriving in both worlds. Interested in updates on the book? Join the newsletter to stay informed.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my fourth post</title>
-    <link href="https://www.daughterdriven.dev/blog/fourthpost/" />
-    <updated>2018-09-30T00:00:00Z</updated>
-    <id>https://www.daughterdriven.dev/blog/fourthpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.daughterdriven.dev/.11ty/image/?src=content%2Fblog%2Ffourthpost%2Fpossum.png&amp;width=350&amp;format=avif&amp;via=transform 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.daughterdriven.dev/.11ty/image/?src=content%2Fblog%2Ffourthpost%2Fpossum.png&amp;width=350&amp;format=webp&amp;via=transform 350w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.daughterdriven.dev/.11ty/image/?src=content%2Fblog%2Ffourthpost%2Fpossum.png&amp;width=350&amp;format=png&amp;via=transform&quot; alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my third post.</title>
-    <link href="https://www.daughterdriven.dev/blog/thirdpost/" />
-    <updated>2018-08-24T00:00:00Z</updated>
-    <id>https://www.daughterdriven.dev/blog/thirdpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-&lt;h3 id=&quot;this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap&quot;&gt;This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;heading-with-a-link&quot;&gt;Heading with a &lt;a href=&quot;https://www.daughterdriven.dev/blog/thirdpost/#code&quot;&gt;link&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log(&#39;Test&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>This is my second post with a much longer title.</title>
+    <title>Winter is here.</title>
     <link href="https://www.daughterdriven.dev/blog/secondpost/" />
-    <updated>2018-07-04T00:00:00Z</updated>
+    <updated>2026-01-07T00:00:00Z</updated>
     <id>https://www.daughterdriven.dev/blog/secondpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.daughterdriven.dev/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://www.daughterdriven.dev/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;winter-is-here&quot;&gt;Winter is here.&lt;/h2&gt;
+&lt;p&gt;Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights and trains. In the ideal movie version of parenthood at this time of year, parents build snowmen and go sledding down the perfect hill, scarves flapping in the wind.&lt;/p&gt;
+&lt;h3 id=&quot;reality-however-looks-a-bit-different&quot;&gt;Reality, however, looks a bit different.&lt;/h3&gt;
+&lt;p&gt;The most anticipated information for us is posted on the display board at the kindergarten entrance. During this season, kids do not collect and trade Pokémon cards. They collect and trade illnesses.&lt;/p&gt;
+&lt;p&gt;A short summary from the board in our youngest child’s group during the last two weeks before Christmas: gastrointestinal infections (multiple times), hand, foot, and mouth disease (multiple times), scarlet fever (once), COVID (a lot).&lt;/p&gt;
+&lt;p&gt;And of course, the daily horror continues into the new year. Questions start popping up in our heads. How do you politely, without sounding like a terrible person, tell your child that maybe they should not hug and wrestle with Paul, whose entire T-shirt is covered in nasal secretions?&lt;/p&gt;
+&lt;h3 id=&quot;other-questions-follow-quickly&quot;&gt;Other questions follow quickly.&lt;/h3&gt;
+&lt;p&gt;How do you deal with the fallout from all of this? How do you throw away carefully planned schedules and time-boxed calendars? How do you tell your team that a deadline that once seemed very achievable might now be a stretch? Because yes, this small human needs us right now.&lt;/p&gt;
+&lt;p&gt;Every winter, we hear dozens of stories from parents. Some are painfully funny. Others create an instant sense of solidarity. And occasionally, you hear a genuinely helpful idea about how to cope with all of this.&lt;/p&gt;
+&lt;p&gt;So what is your story? How do you cope?&lt;/p&gt;
+&lt;h3 id=&quot;we-are-looking-forward-to-hearing-from-you&quot;&gt;We are looking forward to hearing from you!&lt;/h3&gt;
+&lt;p&gt;Marcin &amp;amp;&amp;amp; Ola&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>This is my first post.</title>
+    <title>Hello fellow parent in tech,</title>
     <link href="https://www.daughterdriven.dev/blog/firstpost/" />
-    <updated>2018-05-01T00:00:00Z</updated>
+    <updated>2025-12-19T00:00:00Z</updated>
     <id>https://www.daughterdriven.dev/blog/firstpost/</id>
-    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    <content type="html">&lt;h2 id=&quot;hello-fellow-parent-in-tech&quot;&gt;Hello fellow parent in tech,&lt;/h2&gt;
+&lt;p&gt;Thank you, you decided to become a part of our journey. In our first newsletter, we’d like to introduce ourselves quickly and explain how this project started.&lt;/p&gt;
+&lt;h3 id=&quot;so-how-did-we-get-here&quot;&gt;So, how did we get here?&lt;/h3&gt;
+&lt;p&gt;Marcin and I met in Dortmund somewhere around 2013. Both migrated as kids from Poland (names might have given that away, haven’t they) to small cities on the Westside of Germany. Both engineers already. We saw each other at meetups/conferences from time to time, but as a solo parent, my world was already so different from his. Our lines barely crossed. I moved to Berlin. Worked on open source projects and Firefox full-time. Spoke at and organized conferences. Enjoyed my life with the little one and lived a full daughter-driven-dev life.&lt;/p&gt;
+&lt;h3 id=&quot;fast-forward-to-today&quot;&gt;Fast-forward to today…&lt;/h3&gt;
+&lt;p&gt;I got a message from Marcin on LinkedIn, who now is a dad of 3 amazing kids. Totally random. He asked me if I wrote a book about how to survive as an engineer and a parent, as I lived that for such a long time already. Or, at least, if I could write one. As I said… That felt SO random. To be honest, I am an idiot most of the time. Of course, I misunderstood. I thought he asked me to write something like that TOGETHER. I actually liked that idea. He didn’t. Until he did…&lt;/p&gt;
+&lt;p&gt;Since then, we had so much fun talking about our lives, our ups and downs as parents and basically how to survive this wild ride. We know all of you experienced what we are talking about.&lt;/p&gt;
+&lt;h3 id=&quot;this-is-where-you-come-in&quot;&gt;This is where YOU come in!&lt;/h3&gt;
+&lt;p&gt;This is why we have set up this newsletter. It is not a one way street. We want to hear from you as well. We want you, your life, your experience to be a part of this project, because it gave us so much already to do this together.&lt;/p&gt;
+&lt;p&gt;If you find a minute in your busy life, maybe while hanging out on the playground or during your commute from kindergarten to work, it would be brilliant if you could share a bit about yourself. Maybe how many kids you have or what the biggest struggle is you are dealing with right now?&lt;/p&gt;
+&lt;h3 id=&quot;we-are-looking-forward-to-hearing-from-you&quot;&gt;We are looking forward to hearing from you!&lt;/h3&gt;
+&lt;p&gt;Marcin &amp;amp;&amp;amp; Ola&lt;/p&gt;
 </content>
   </entry>
 </feed>
