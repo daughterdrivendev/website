@@ -536,7 +536,7 @@ DESIGN GIMMICKS
   overflow: hidden;
   position: absolute;
   top: 1rem;
-  right: 12rem;
+  right: 15%;
   transform: rotate(50deg);
 }
 
@@ -554,7 +554,8 @@ DESIGN GIMMICKS
 }
 
 #stamp svg{
-  max-width:60vmin;
+  width:15rem;
+  height:15rem;
 }
 
 #stamp  .textcircle {

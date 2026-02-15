@@ -549,7 +549,7 @@ DESIGN GIMMICKS
   overflow: hidden;
   position: absolute;
   top: 1rem;
-  right: 12rem;
+  right: 15%;
   transform: rotate(50deg);
 }
 
@@ -567,7 +567,8 @@ DESIGN GIMMICKS
 }
 
 #stamp svg{
-  max-width:60vmin;
+  width:15rem;
+  height:15rem;
 }
 
 #stamp  .textcircle {
@@ -685,6 +686,9 @@ DESIGN GIMMICKS
         margin-bottom: 2rem;
         border-radius: var(--border-radius);
     }
+    #stamp {
+        right: 0vw;
+    }
 }
 
 /* Large phones (481px - 767px) */
@@ -709,6 +713,10 @@ DESIGN GIMMICKS
         padding: 0.85rem;
         margin-bottom: 3rem;
         border-radius: var(--border-radius);
+    }
+    #stamp {
+        right: 34%;
+        top: -27px;
     }
 }
 
@@ -745,6 +753,32 @@ DESIGN GIMMICKS
         margin-bottom: 4rem;
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
+    }
+    #stamp {
+        right: 5%;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1360px) {
+     #stamp {
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+     #stamp {
+        right: 4%;
+    }
+}
+
+@media screen and (min-width: 861px) and (max-width: 980px) {
+     #stamp {
+        right: -3%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+     #stamp {
+        right: -8%;
     }
 }</style>
 		
@@ -814,7 +848,7 @@ DESIGN GIMMICKS
 			</footer>
 		</section>
 
-		<!-- This page `/` was built on 2026-02-15T17:58:04.812Z -->
+		<!-- This page `/` was built on 2026-02-15T19:36:34.057Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>
