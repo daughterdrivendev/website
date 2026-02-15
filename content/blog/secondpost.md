@@ -1,7 +1,7 @@
 ---
 title: Winter is here.
 description: This post talks about the horrors of the winter and our kids being sick.
-date: 2026-01-07
+date: 2026-01-12
 tags: newsletter
 author: Marcin
 ---

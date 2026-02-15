@@ -44,7 +44,6 @@ export default async function(eleventyConfig) {
 		bundleHtmlContentFromSelector: "style",
 	});
 
-	eleventyConfig.addPassthroughCopy("css/Inter_28pt-ExtraLight.ttf");
 	eleventyConfig.addPassthroughCopy("css/coffee-stain.png");
 	eleventyConfig.addPassthroughCopy("css/coffee-splatter-9.png");
 
