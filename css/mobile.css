@@ -109,9 +109,6 @@
         margin-bottom: 2rem;
         border-radius: var(--border-radius);
     }
-    #stamp {
-        right: 0vw;
-    }
 }
 
 /* Large phones (481px - 767px) */
@@ -136,10 +133,6 @@
         padding: 0.85rem;
         margin-bottom: 3rem;
         border-radius: var(--border-radius);
-    }
-    #stamp {
-        right: 34%;
-        top: -27px;
     }
 }
 
@@ -176,31 +169,5 @@
         margin-bottom: 4rem;
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
-    }
-    #stamp {
-        right: 5%;
-    }
-}
-@media screen and (min-width: 1201px) and (max-width: 1360px) {
-     #stamp {
-        right: 10%;
-    }
-}
-
-@media screen and (min-width: 981px) and (max-width: 1200px) {
-     #stamp {
-        right: 4%;
-    }
-}
-
-@media screen and (min-width: 861px) and (max-width: 980px) {
-     #stamp {
-        right: -3%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 860px) {
-     #stamp {
-        right: -8%;
     }
 }

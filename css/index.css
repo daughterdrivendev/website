@@ -238,13 +238,14 @@ MAIN LAYOUT
 ------------------- */
 /* ------- MAIN Section -------- */
 #main-section {
+	position: relative;
 	display: inline-block;
 	margin-top: 8rem;
 	margin-bottom: 1rem;
 	background-color: #fcfcfc;
 	border-top-right-radius: var(--border-radius);
 	border-bottom-right-radius: var(--border-radius);
-	-webkit-box-shadow: 5px 1px 16px -3px rgba(0,0,0,0.2); 
+	-webkit-box-shadow: 5px 1px 16px -3px rgba(0,0,0,0.2);
 	box-shadow: 5px 1px 16px -3px rgba(0,0,0,0.2);
 	padding: 2em 5em 2em 3em;
 	border-top-left-radius: var(--border-radius);
@@ -531,12 +532,10 @@ DESIGN GIMMICKS
 }
 /* ------- STAMP -------- */
 #stamp {
-  min-height: 18vw;
-  min-width: 18vw;
   overflow: hidden;
   position: absolute;
-  top: 1rem;
-  right: 15%;
+  top: -7.5rem;
+  right: -7.5rem;
   transform: rotate(50deg);
 }
 
