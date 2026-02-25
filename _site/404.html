@@ -341,7 +341,7 @@ Index page only
 #cover{
 	display: inline-block;
 	background-color: darkblue;
-	min-height: 80vh;
+	aspect-ratio: 2 / 3;
 	padding: 4rem 3rem 3rem;
 	max-width: 40em;
 }
@@ -620,13 +620,35 @@ DESIGN GIMMICKS
 @media screen and (max-width: 767px) {
     .hamburger {
         display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
     }
 
     nav {
-        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    #stamp {
+        top: -4.25rem;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #stamp svg {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    #cover {
+        max-width: 100%;
+        padding: 2rem 1.5rem 1.5rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
     }
 
     .nav {
@@ -672,7 +694,7 @@ DESIGN GIMMICKS
 
     #main-section {
         display: block;
-        margin-top: 2rem;
+        margin-top: 5rem;
         margin-bottom: 0.5rem;
         padding: 1rem;
         border-radius: var(--border-radius);
@@ -689,6 +711,15 @@ DESIGN GIMMICKS
 
 /* Large phones (481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
+    #cover {
+        max-width: 100%;
+        padding: 2.5rem 2rem 2rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
     #wrapper {
         max-width: 100%;
         margin: 0 auto;
@@ -697,7 +728,7 @@ DESIGN GIMMICKS
 
     #main-section {
         display: block;
-        margin-top: 4rem;
+        margin-top: 5rem;
         margin-bottom: 0.75rem;
         padding: 1.5rem 2rem;
         border-radius: var(--border-radius);
@@ -714,6 +745,10 @@ DESIGN GIMMICKS
 
 /* Tablets (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #cover #title {
+        font-size: 3.5em;
+    }
+
     .hamburger {
         display: none;
     }
@@ -817,7 +852,7 @@ This is compatible with:
 			</footer>
 		</section>
 
-		<!-- This page `/404.html` was built on 2026-02-18T10:30:19.285Z -->
+		<!-- This page `/404.html` was built on 2026-02-25T10:41:26.670Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>

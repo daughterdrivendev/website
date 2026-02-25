@@ -328,7 +328,7 @@ Index page only
 #cover{
 	display: inline-block;
 	background-color: darkblue;
-	min-height: 80vh;
+	aspect-ratio: 2 / 3;
 	padding: 4rem 3rem 3rem;
 	max-width: 40em;
 }

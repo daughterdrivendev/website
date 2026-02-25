@@ -44,13 +44,35 @@
 @media screen and (max-width: 767px) {
     .hamburger {
         display: block;
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
     }
 
     nav {
-        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    #stamp {
+        top: -4.25rem;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #stamp svg {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    #cover {
+        max-width: 100%;
+        padding: 2rem 1.5rem 1.5rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
     }
 
     .nav {
@@ -96,7 +118,7 @@
 
     #main-section {
         display: block;
-        margin-top: 2rem;
+        margin-top: 5rem;
         margin-bottom: 0.5rem;
         padding: 1rem;
         border-radius: var(--border-radius);
@@ -113,6 +135,15 @@
 
 /* Large phones (481px - 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
+    #cover {
+        max-width: 100%;
+        padding: 2.5rem 2rem 2rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
     #wrapper {
         max-width: 100%;
         margin: 0 auto;
@@ -121,7 +152,7 @@
 
     #main-section {
         display: block;
-        margin-top: 4rem;
+        margin-top: 5rem;
         margin-bottom: 0.75rem;
         padding: 1.5rem 2rem;
         border-radius: var(--border-radius);
@@ -138,6 +169,10 @@
 
 /* Tablets (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    #cover #title {
+        font-size: 3.5em;
+    }
+
     .hamburger {
         display: none;
     }
