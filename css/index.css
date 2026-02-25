@@ -238,7 +238,7 @@ MAIN LAYOUT
 /* ------- MAIN Section -------- */
 #main-section {
 	position: relative;
-	display: inline-block;
+	display: block;
 	margin-top: 8rem;
 	margin-bottom: 1rem;
 	background-color: #fcfcfc;
