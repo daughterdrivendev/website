@@ -61,7 +61,6 @@ html {
 	overflow-y: scroll;
 }
 body {
-	opacity: 0.8;
 	background-image: radial-gradient(#979797 0.5px, #f6f6f6 0.5px);
 	background-size: 10px 10px;
 	min-height: 100vh;
