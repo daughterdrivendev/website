@@ -17,5 +17,5 @@ A book for engineers navigating the beautiful chaos of parenthood. Real stories,
 </p>
 
 <p>
-Interested in updates on the book? Join the newsletter to stay informed. 
+Interested in updates on the book? <a href="https://buttondown.com/daughterdrivendev" target="_blank">Join the newsletter</a> to stay informed. 
 </p>
