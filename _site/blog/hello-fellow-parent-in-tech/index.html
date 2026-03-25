@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Imprint</title>
-		<meta name="description" content="Daughter Drivevn Development. Parents in Tech.">
+		<title>Hello fellow parent in tech,</title>
+		<meta name="description" content="This post explores the start of our journey.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="DaughterDrivenDev">
 		
 		
@@ -781,6 +781,174 @@ DESIGN GIMMICKS
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
     }
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 		
@@ -827,19 +995,34 @@ DESIGN GIMMICKS
 		</nav>
 				</header>
 				<main id="main">
-					<h2 id="imprint">Imprint</h2>
-<h3 id="information-according-to-5-tmg">Information according to § 5 TMG</h3>
-<p>Marcin Skirzynski<br>
-Postfach 10 35 10<br>
-44035 Dortmund<br>
-Germany</p>
-<h3 id="contact">Contact</h3>
-<p>E-Mail:<br>
-<a href="mailto:marcin@daughterdriven.dev">marcin@daughterdriven.dev</a><br>
-<a href="mailto:ola@daughterdriven.dev">ola@daughterdriven.dev</a></p>
-<h3 id="editorial-responsibility">Editorial Responsibility</h3>
-<p>Marcin Skirzynski<br>
-Ola Gasidlo-Brändel</p>
+					
+
+
+
+<section class="post-metadata">
+	<time class="postlist-date" datetime="2025-12-19">19 December 2025</time>
+	<span class=" postlist-author">•  Ola</span>
+		<a href="/tags/newsletter/" class="post-tag highlight">newsletter</a>
+</section>
+<article class="post">
+	<h2 id="hello-fellow-parent-in-tech">Hello fellow parent in tech,</h2>
+<p>Thank you, you decided to become a part of our journey. In our first newsletter, we’d like to introduce ourselves quickly and explain how this project started.</p>
+<h3 id="so-how-did-we-get-here">So, how did we get here?</h3>
+<p>Marcin and I met in Dortmund somewhere around 2013. Both migrated as kids from Poland (names might have given that away, haven’t they) to small cities on the Westside of Germany. Both engineers already. We saw each other at meetups/conferences from time to time, but as a solo parent, my world was already so different from his. Our lines barely crossed. I moved to Berlin. Worked on open source projects and Firefox full-time. Spoke at and organized conferences. Enjoyed my life with the little one and lived a full daughter-driven-dev life.</p>
+<h3 id="fast-forward-to-today">Fast-forward to today…</h3>
+<p>I got a message from Marcin on LinkedIn, who now is a dad of 3 amazing kids. Totally random. He asked me if I wrote a book about how to survive as an engineer and a parent, as I lived that for such a long time already. Or, at least, if I could write one. As I said… That felt SO random. To be honest, I am an idiot most of the time. Of course, I misunderstood. I thought he asked me to write something like that TOGETHER. I actually liked that idea. He didn’t. Until he did…</p>
+<p>Since then, we had so much fun talking about our lives, our ups and downs as parents and basically how to survive this wild ride. We know all of you experienced what we are talking about.</p>
+<h3 id="this-is-where-you-come-in">This is where YOU come in!</h3>
+<p>This is why we have set up this newsletter. It is not a one way street. We want to hear from you as well. We want you, your life, your experience to be a part of this project, because it gave us so much already to do this together.</p>
+<p>If you find a minute in your busy life, maybe while hanging out on the playground or during your commute from kindergarten to work, it would be brilliant if you could share a bit about yourself. Maybe how many kids you have or what the biggest struggle is you are dealing with right now?</p>
+<h3 id="we-are-looking-forward-to-hearing-from-you">We are looking forward to hearing from you!</h3>
+<p>Marcin &amp;&amp; Ola</p>
+
+</article>
+<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/winter-is-here/">Winter is here.</a></li>
+</ul>
+<script src="https://utteranc.es/client.js" repo="daughterdrivendev/comments" issue-term="pathname" label="" theme="boxy-light" crossorigin="anonymous" async=""></script>
+
 
 				</main>
 			</section>
@@ -850,7 +1033,7 @@ Ola Gasidlo-Brändel</p>
 			</footer>
 		</section>
 
-		<!-- This page `/imprint/` was built on 2026-03-25T05:07:55.694Z -->
+		<!-- This page `/blog/hello-fellow-parent-in-tech/` was built on 2026-03-25T05:07:55.695Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>

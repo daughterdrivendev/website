@@ -4,6 +4,7 @@ description: This post talks about the horrors of the winter and our kids being 
 date: 2026-01-12
 tags: newsletter
 author: Marcin
+permalink: /blog/winter-is-here/
 ---
 ## Winter is here. 
 

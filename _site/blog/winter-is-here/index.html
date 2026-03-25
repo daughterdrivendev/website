@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Imprint</title>
-		<meta name="description" content="Daughter Drivevn Development. Parents in Tech.">
+		<title>Winter is here.</title>
+		<meta name="description" content="This post talks about the horrors of the winter and our kids being sick.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="DaughterDrivenDev">
 		
 		
@@ -781,6 +781,174 @@ DESIGN GIMMICKS
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
     }
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 		
@@ -827,19 +995,34 @@ DESIGN GIMMICKS
 		</nav>
 				</header>
 				<main id="main">
-					<h2 id="imprint">Imprint</h2>
-<h3 id="information-according-to-5-tmg">Information according to § 5 TMG</h3>
-<p>Marcin Skirzynski<br>
-Postfach 10 35 10<br>
-44035 Dortmund<br>
-Germany</p>
-<h3 id="contact">Contact</h3>
-<p>E-Mail:<br>
-<a href="mailto:marcin@daughterdriven.dev">marcin@daughterdriven.dev</a><br>
-<a href="mailto:ola@daughterdriven.dev">ola@daughterdriven.dev</a></p>
-<h3 id="editorial-responsibility">Editorial Responsibility</h3>
-<p>Marcin Skirzynski<br>
-Ola Gasidlo-Brändel</p>
+					
+
+
+
+<section class="post-metadata">
+	<time class="postlist-date" datetime="2026-01-12">12 January 2026</time>
+	<span class=" postlist-author">•  Marcin</span>
+		<a href="/tags/newsletter/" class="post-tag highlight">newsletter</a>
+</section>
+<article class="post">
+	<h2 id="winter-is-here">Winter is here.</h2>
+<p>Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights and trains. In the ideal movie version of parenthood at this time of year, parents build snowmen and go sledding down the perfect hill, scarves flapping in the wind.</p>
+<h3 id="reality-however-looks-a-bit-different">Reality, however, looks a bit different.</h3>
+<p>The most anticipated information for us is posted on the display board at the kindergarten entrance. During this season, kids do not collect and trade Pokémon cards. They collect and trade illnesses.</p>
+<p>A short summary from the board in our youngest child’s group during the last two weeks before Christmas: gastrointestinal infections (multiple times), hand, foot, and mouth disease (multiple times), scarlet fever (once), COVID (a lot).</p>
+<p>And of course, the daily horror continues into the new year. Questions start popping up in our heads. How do you politely, without sounding like a terrible person, tell your child that maybe they should not hug and wrestle with Paul, whose entire T-shirt is covered in nasal secretions?</p>
+<h3 id="other-questions-follow-quickly">Other questions follow quickly.</h3>
+<p>How do you deal with the fallout from all of this? How do you throw away carefully planned schedules and time-boxed calendars? How do you tell your team that a deadline that once seemed very achievable might now be a stretch? Because yes, this small human needs us right now.</p>
+<p>Every winter, we hear dozens of stories from parents. Some are painfully funny. Others create an instant sense of solidarity. And occasionally, you hear a genuinely helpful idea about how to cope with all of this.</p>
+<p>So what is your story? How do you cope?</p>
+<h3 id="we-are-looking-forward-to-hearing-from-you">We are looking forward to hearing from you!</h3>
+<p>Marcin &amp;&amp; Ola</p>
+
+</article>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/hello-fellow-parent-in-tech/">Hello fellow parent in tech,</a></li>
+</ul>
+<script src="https://utteranc.es/client.js" repo="daughterdrivendev/comments" issue-term="pathname" label="" theme="boxy-light" crossorigin="anonymous" async=""></script>
+
 
 				</main>
 			</section>
@@ -850,7 +1033,7 @@ Ola Gasidlo-Brändel</p>
 			</footer>
 		</section>
 
-		<!-- This page `/imprint/` was built on 2026-03-25T05:07:55.694Z -->
+		<!-- This page `/blog/winter-is-here/` was built on 2026-03-25T05:07:55.695Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>

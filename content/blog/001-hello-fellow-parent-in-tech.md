@@ -4,6 +4,7 @@ description: This post explores the start of our journey.
 date: 2025-12-19
 tags: newsletter
 author: Ola
+permalink: /blog/hello-fellow-parent-in-tech/
 ---
 ## Hello fellow parent in tech,
 
