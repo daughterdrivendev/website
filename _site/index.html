@@ -78,6 +78,7 @@ body {
 	background-size: 10px 10px;
 	min-height: 100vh;
 	padding-bottom: 5rem;
+	overflow-x: hidden;
 }
 
 #wrapper {
@@ -510,38 +511,37 @@ DESIGN GIMMICKS
     );
 }
 
-@media screen and (min-width: 1400px) {
-	/* ------- COFFEE STAIN -------- */
-	#coffee-stain {
-		height: 300px;
-		width: 300px;
-		position: absolute;
-		background-image: url('../css/coffee-stain.png');
-		background-size:     cover;
-		background-repeat:   no-repeat;
-		background-position: center center;
-		z-index: 0;
-		opacity: 50%;
-		display: inline-block;
-		left: 1rem;
-		bottom: 20%;
-	}
+/* ------- COFFEE STAIN -------- */
+#coffee-stain {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-image: url('../css/coffee-stain.png');
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	z-index: -1;
+	opacity: 50%;
+	display: inline-block;
+	left: -6rem;
+	bottom: -4rem;
+	pointer-events: none;
+}
 
-
-	#coffee-spill {
-		height: 300px;
-		width: 300px;
-		position: absolute;
-		background-image: url('../css/coffee-splatter-9.png');
-		background-size:     cover;
-		background-repeat:   no-repeat;
-		background-position: center center;
-		z-index: 0;
-		opacity: 100%;
-		display: inline-block;
-		right: 5rem;
-		bottom: 1rem;
-	}
+#coffee-spill {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-image: url('../css/coffee-splatter-9.png');
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	z-index: -1;
+	opacity: 100%;
+	display: inline-block;
+	right: -5rem;
+	bottom: -3rem;
+	pointer-events: none;
 }
 /* ------- STAMP -------- */
 #stamp {
@@ -848,7 +848,7 @@ DESIGN GIMMICKS
 			</footer>
 		</section>
 
-		<!-- This page `/` was built on 2026-02-25T11:10:21.414Z -->
+		<!-- This page `/` was built on 2026-03-06T06:51:45.359Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>
