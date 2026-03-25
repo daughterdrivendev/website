@@ -510,7 +510,7 @@ DESIGN GIMMICKS
 		z-index: 0;
 		opacity: 50%;
 		display: inline-block;
-		left: 1rem;
+		left: -16rem;
 		bottom: 20%;
 	}
 
@@ -524,10 +524,10 @@ DESIGN GIMMICKS
 		background-repeat:   no-repeat;
 		background-position: center center;
 		z-index: 0;
-		opacity: 100%;
+		opacity: 50%;
 		display: inline-block;
-		right: 5rem;
-		bottom: 1rem;
+		right: -18rem;
+		bottom: 0rem;
 	}
 }
 /* ------- STAMP -------- */
