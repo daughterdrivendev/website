@@ -60,9 +60,9 @@ html {
 	overflow-y: scroll;
 }
 body {
-	background-color: var(--background-color);
-	background-image: radial-gradient(#979797 0.5px, #f6f6f6 0.5px);
-	background-size: 10px 10px;
+	background-color: rgb(247, 245, 242);
+	background-image: radial-gradient(rgb(68, 76, 247) 0.55px, rgb(247, 245, 242) 0.55px);
+	background-size: 11px 11px;
 	min-height: 100vh;
 	padding-bottom: 5rem;
 	overflow-x: hidden;
