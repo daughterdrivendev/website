@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daughterdriven.dev/sitemap-index.xml
