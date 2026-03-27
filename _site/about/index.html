@@ -328,9 +328,36 @@ nav {
 	letter-spacing: 0.3rem;;
 }
 
-.nav a[href][aria-current="page"] {
+.nav a[href][aria-current="page"],
+.nav a[href][aria-current="page"].highlight {
 	font-weight: 500;
 	text-decoration: none;
+	position: relative;
+	background: none;
+	background-image: none;
+}
+
+.nav a[href][aria-current="page"]::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 0%;
+	border-radius: 0.8em 0.3em;
+	background-image: linear-gradient(
+		to right,
+		rgba(221, 183, 120, 0.1),
+		rgba(221, 183, 120, 0.7) 4%,
+		rgba(221, 183, 120, 0.3)
+	);
+	animation: marker-draw 0.3s cubic-bezier(0.05, 0.9, 0.3, 1) 0.1s forwards;
+}
+
+@keyframes marker-draw {
+	to {
+		width: 100%;
+	}
 }
 
 /** -----------------
@@ -841,7 +868,7 @@ Interested in updates on the book? Join the newsletter to stay informed.
 			</footer>
 		</section>
 
-		<!-- This page `/about/` was built on 2026-03-27T16:12:47.964Z -->
+		<!-- This page `/about/` was built on 2026-03-27T16:48:54.719Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>
