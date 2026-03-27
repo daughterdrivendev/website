@@ -50,7 +50,7 @@ Do you also get calmer the more chaos around you errupts?
 #### We can hold an enormous amount of pain.
 Sleep deprivation. Emotional exhaustion. Being needed by absolutely everyone, all at once, with nothing left in the tank. Parents have shipped features through all of that. We don't just cope with hard — we've built a house there.
 
-#### Senior engineer? Sure. But parent-engineer? That's a different league entirely.
+*Senior engineer? Sure. But parent-engineer? That's a different league entirely.*
 
 Do you agree? We'd love to hear from you.
 
