@@ -79,7 +79,7 @@
 						</button>
 			<ul class="nav">
 			{%- for entry in collections.all | eleventyNavigation %}
-				<li class="nav-item"><a title="{{ entry.title }}" href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page" class="highlight"{% endif %}>{{ entry.title }}</a></li>
+				<li class="nav-item"><a title="{{ entry.title }}" href="{{ entry.url }}"{% if (entry.url == "/" and page.url == "/") or (entry.url != "/" and page.url.startsWith(entry.url)) %} aria-current="page" class="highlight"{% endif %}>{{ entry.title }}</a></li>
 			{%- endfor %}
 			<li class="nav-item">
 				<a title="subscribe to the newsletter" href="https://buttondown.com/daughterdrivendev" target="_blank" data-umami-event="subscribe-click">Subscribe</a>
