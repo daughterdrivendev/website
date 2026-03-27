@@ -229,10 +229,6 @@ h1, h2, h3, h4, h5, h6 {
   	font-weight: 400;
 }
 
-h4 {
-	font-style: italic;
-}
-
 /* ------- Horizontal Line -------- */
 hr {
 	opacity: 0.2;
@@ -432,7 +428,7 @@ BLOG
 	font-style: italic;
 }
 
-.post-tag.highlight {
+.post-tag {
 	font-size: 0.8em;
   	padding-top: 0;
 }
@@ -470,12 +466,8 @@ DESIGN GIMMICKS
     box-decoration-break: clone;
   }
 
-
-/*** ---- highlighter for tags in posts ----*/
-
-/* add function for fandom indexes 	*/
-.post-metadata *:nth-child(2) .highlight {
-	background-image: linear-gradient(
+.highlight-green {
+    background-image: linear-gradient(
       to right,
       rgba(98, 225, 0, 0.1),
       rgba(98, 255, 0, 0.7) 4%,
@@ -483,8 +475,8 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(3) .highlight {
-	background-image: linear-gradient(
+.highlight-orange {
+    background-image: linear-gradient(
       to right,
       rgba(255, 132, 0, 0.1),
       rgba(255, 132, 0, 0.7) 4%,
@@ -492,8 +484,8 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(4) .highlight {
-	background-image: linear-gradient(
+.highlight-blue {
+    background-image: linear-gradient(
       to right,
       rgba(0, 149, 255, 0.1),
       rgba(0, 149, 255, 0.7) 4%,
@@ -501,14 +493,15 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(5) .highlight {
-	background-image: linear-gradient(
+.highlight-magenta {
+    background-image: linear-gradient(
       to right,
       rgba(255, 0, 255, 0.1),
       rgba(255, 0, 255, 0.7) 4%,
       rgba(255, 0, 255, 0.3)
     );
 }
+
 
 /* ------- COFFEE STAIN -------- */
 #coffee-stain {
@@ -830,6 +823,19 @@ DESIGN GIMMICKS
 
 
 <div reversed="" class="postlist">
+	<article class="postlist-item">
+		<h2 id="winter-is-here">
+			<a href="/blog/winter-is-here/" class="postlist-link">Winter is here.</a>
+		</h2>
+		<section class="postlist-metadata">
+			<time class="postlist-date" datetime="2026-01-12">
+				12 January 2026
+				<!-- add tags here -->
+			</time>
+			<small class="postlist-author">• Marcin</small>
+		</section>
+		<p></p><p>Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights, stuck trains. The perfect movie-like version of parenthood? Building two-meter-high snowmen with our kids, screaming as they ride down hills on sleds while scarves flap in the wind, snowball fights everywhere.</p><p></p>
+	</article>
 </div>
 
 
@@ -840,12 +846,12 @@ DESIGN GIMMICKS
 			</section>
 			<footer>
 				<p>
-					<em>Built with <a href="https://www.11ty.dev/">11ty</a></em> · <a href="/feed/feed.xml">Feed</a> · <a href="/imprint/">Imprint</a>
+					<em>Built with <a href="https://www.11ty.dev/">11ty</a></em> · <a href="/feed/feed.xml">Feed</a> · <a href="/imprint/">Imprint</a> · <a href="https://github.com/daughterdrivendev/website/issues/new" target="_blank">Found a bug?</a>
 				</p>
 			</footer>
 		</section>
 
-		<!-- This page `/tags/blog/` was built on 2026-03-27T09:23:24.734Z -->
+		<!-- This page `/tags/blog/` was built on 2026-03-27T16:07:51.133Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>

@@ -12,7 +12,7 @@ scripts: >
 	<span class=" postlist-author">•  {{author}}</span>
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<a href="{{ tagUrl }}" class="post-tag highlight">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
 	{%- endfor %}
 </section>
 <article class="post">

@@ -419,7 +419,7 @@ BLOG
 	font-style: italic;
 }
 
-.post-tag.highlight {
+.post-tag {
 	font-size: 0.8em;
   	padding-top: 0;
 }
@@ -457,12 +457,8 @@ DESIGN GIMMICKS
     box-decoration-break: clone;
   }
 
-
-/*** ---- highlighter for tags in posts ----*/
-
-/* add function for fandom indexes 	*/
-.post-metadata *:nth-child(2) .highlight {
-	background-image: linear-gradient(
+.highlight-green {
+    background-image: linear-gradient(
       to right,
       rgba(98, 225, 0, 0.1),
       rgba(98, 255, 0, 0.7) 4%,
@@ -470,8 +466,8 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(3) .highlight {
-	background-image: linear-gradient(
+.highlight-orange {
+    background-image: linear-gradient(
       to right,
       rgba(255, 132, 0, 0.1),
       rgba(255, 132, 0, 0.7) 4%,
@@ -479,8 +475,8 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(4) .highlight {
-	background-image: linear-gradient(
+.highlight-blue {
+    background-image: linear-gradient(
       to right,
       rgba(0, 149, 255, 0.1),
       rgba(0, 149, 255, 0.7) 4%,
@@ -488,14 +484,15 @@ DESIGN GIMMICKS
     );
 }
 
-.post-metadata *:nth-child(5) .highlight {
-	background-image: linear-gradient(
+.highlight-magenta {
+    background-image: linear-gradient(
       to right,
       rgba(255, 0, 255, 0.1),
       rgba(255, 0, 255, 0.7) 4%,
       rgba(255, 0, 255, 0.3)
     );
 }
+
 
 /* ------- COFFEE STAIN -------- */
 #coffee-stain {
