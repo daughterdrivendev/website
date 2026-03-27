@@ -17,13 +17,6 @@
 	
 		
 		<url>
-			<loc>https://www.daughterdriven.dev/about/</loc>
-			<lastmod>2026-01-23</lastmod>
-		</url>
-	
-	
-		
-		<url>
 			<loc>https://www.daughterdriven.dev/blog/</loc>
 			<lastmod>2026-01-23</lastmod>
 		</url>
@@ -52,8 +45,15 @@
 	
 		
 		<url>
-			<loc>https://www.daughterdriven.dev/blog/003-parents-in-tech-are-special/</loc>
-			<lastmod>2026-03-27</lastmod>
+			<loc>https://www.daughterdriven.dev/about/</loc>
+			<lastmod>2026-03-25</lastmod>
+		</url>
+	
+	
+		
+		<url>
+			<loc>https://www.daughterdriven.dev/blog/parents-in-tech-are-special/</loc>
+			<lastmod>2026-03-26</lastmod>
 		</url>
 	
 	

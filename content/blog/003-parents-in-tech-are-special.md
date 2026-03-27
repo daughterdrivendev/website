@@ -2,11 +2,12 @@
 title: Why Parents in Tech Are Special.
 description: This post talks about what unique skillset we as parents in tech have.
 date: 2026-03-26
-tags: blog
+tags: post
 author: Ola
-permalink: /blog/parents-in-tech-are-special/
+permalink: /blog/parents-in-tech-are-special/ 
 ---
-## Why Parents in Tech Are Special
+
+## Why Parents in Tech Are Special.
 
 Have you ever tried debugging a piece of code while a toddler is using your leg as a climbing wall and someone is yelling “I’m hungryyyy” like it’s a system alert? If yes, congratulations. We’re not just parents. We’re parents in tech, which hits completely different.
 
