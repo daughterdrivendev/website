@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;newsletter&#39;</title>
+		<title>DaughterDrivenDev</title>
 		<meta name="description" content="Daughter Drivevn Development. Parents in Tech.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="DaughterDrivenDev">
 		
@@ -776,6 +776,174 @@ DESIGN GIMMICKS
         border-bottom-left-radius: var(--border-radius);
         border-bottom-right-radius: var(--border-radius);
     }
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 		
@@ -822,40 +990,23 @@ DESIGN GIMMICKS
 		</nav>
 				</header>
 				<main id="main">
-					<h1 id="tagged-newsletter">Tagged “newsletter”</h1>
+					
 
 
-<div reversed="" class="postlist">
-	<article class="postlist-item">
-		<h2 id="winter-is-here">
-			<a href="/blog/winter-is-here/" class="postlist-link">Winter is here.</a>
-		</h2>
-		<section class="postlist-metadata">
-			<time class="postlist-date" datetime="2026-01-12">
-				12 January 2026
-				<!-- add tags here -->
-			</time>
-			<small class="postlist-author">• Marcin</small>
-		</section>
-		<p></p><p>Snow is piling up across Europe and other parts of the Northern Hemisphere. Slippery roads, canceled flights, stuck trains. The perfect movie-like version of parenthood? Building two-meter-high snowmen with our kids, screaming as they ride down hills on sleds while scarves flap in the wind, snowball fights everywhere.</p><p></p>
-	</article>
-	<article class="postlist-item">
-		<h2 id="hello-fellow-parent-in-tech">
-			<a href="/blog/hello-fellow-parent-in-tech/" class="postlist-link">Hello fellow parent in tech,</a>
-		</h2>
-		<section class="postlist-metadata">
-			<time class="postlist-date" datetime="2025-12-19">
-				19 December 2025
-				<!-- add tags here -->
-			</time>
-			<small class="postlist-author">• Ola</small>
-		</section>
-		<p></p><p>Thank you, you decided to become a part of our journey. In our first newsletter, we’d like to introduce ourselves quickly and explain how this project started.</p><p></p>
-	</article>
-</div>
 
+<section class="post-metadata">
+	<time class="postlist-date" datetime="2026-03-27">27 March 2026</time>
+	<span class=" postlist-author">•  </span>
+</section>
+<article class="post">
+	<p>Why Parents in Tech Are Basically Everyday Superheroes</p>
+<p>Have you ever tried debugging a piece of code while a toddler is using your leg as a climbing wall and someone is yelling “I’m hungryyyy” like it’s a system alert? If yes, congratulations. We’re not just parents. We’re parents in tech, which is a completely different species.</p>
+<p>There’s something special about people like us who live in both worlds: one full of bugs, builds, and deadlines, and the other full of snacks, bedtime negotiations, and mysterious sticky substances.</p>
 
-<p>See <a href="/tags/">all tags</a>.</p>
+</article>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/winter-is-here/">Winter is here.</a></li>
+</ul>
+<script src="https://utteranc.es/client.js" repo="daughterdrivendev/comments" issue-term="pathname" label="" theme="boxy-light" crossorigin="anonymous" async=""></script>
 
 
 				</main>
@@ -867,7 +1018,7 @@ DESIGN GIMMICKS
 			</footer>
 		</section>
 
-		<!-- This page `/tags/newsletter/` was built on 2026-03-27T07:03:12.028Z -->
+		<!-- This page `/blog/003-parents-in-tech-are-special/` was built on 2026-03-27T07:03:12.027Z -->
 		<script type="module" src="/dist/SvW0_tTumP.js"></script>
 		
 	</body>

@@ -5,11 +5,21 @@
   <subtitle>Daughter Driven Development. Parents in Tech.</subtitle>
   <link href="https://www.daughterdriven.dev/feed/feed.xml" rel="self" />
   <link href="https://www.daughterdriven.dev/" />
-  <updated>2026-01-12T00:00:00Z</updated>
+  <updated>2026-03-27T07:03:11Z</updated>
   <id>https://www.daughterdriven.dev/</id>
   <author>
     <name>Ola Gasidlo-Brändel, Marcin Skirzynski</name>
   </author>
+  <entry>
+    <title></title>
+    <link href="https://www.daughterdriven.dev/blog/003-parents-in-tech-are-special/" />
+    <updated>2026-03-27T07:03:11Z</updated>
+    <id>https://www.daughterdriven.dev/blog/003-parents-in-tech-are-special/</id>
+    <content type="html">&lt;p&gt;Why Parents in Tech Are Basically Everyday Superheroes&lt;/p&gt;
+&lt;p&gt;Have you ever tried debugging a piece of code while a toddler is using your leg as a climbing wall and someone is yelling “I’m hungryyyy” like it’s a system alert? If yes, congratulations. We’re not just parents. We’re parents in tech, which is a completely different species.&lt;/p&gt;
+&lt;p&gt;There’s something special about people like us who live in both worlds: one full of bugs, builds, and deadlines, and the other full of snacks, bedtime negotiations, and mysterious sticky substances.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Winter is here.</title>
     <link href="https://www.daughterdriven.dev/blog/winter-is-here/" />
