@@ -1,0 +1,208 @@
+/* Mobile Styles for Daughter Driven Dev */
+
+/* Hamburger Menu Button - visible on mobile only */
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1000;
+}
+
+.hamburger-box {
+    width: 28px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: darkblue;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger animation when open */
+.hamburger.is-active .hamburger-line:nth-child(1) {
+    transform: translateY(8.5px) rotate(45deg);
+}
+
+.hamburger.is-active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.is-active .hamburger-line:nth-child(3) {
+    transform: translateY(-8.5px) rotate(-45deg);
+}
+
+/* Mobile Navigation Styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    #stamp {
+        top: -4.25rem;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #stamp svg {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    #cover {
+        max-width: 100%;
+        padding: 2rem 1.5rem 1.5rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 1rem 0;
+        margin-top: 0.5rem;
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav.is-open {
+        display: flex;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 0;
+        padding: 0.75rem 1rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 139, 0.1);
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .nav a {
+        display: block;
+        padding: 0.25rem 0;
+    }
+}
+
+/* Small phones (320px - 480px) */
+@media screen and (max-width: 480px) {
+    #wrapper {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 0.5rem;
+    }
+
+    #main-section {
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        border-radius: var(--border-radius);
+        -webkit-box-shadow: 0 1px 8px -2px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 8px -2px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+        padding: 0.75rem;
+        margin-bottom: 2rem;
+        border-radius: var(--border-radius);
+    }
+}
+
+/* Large phones (481px - 767px) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #cover {
+        max-width: 100%;
+        padding: 2.5rem 2rem 2rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
+    #wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    #main-section {
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 0.75rem;
+        padding: 1.5rem 2rem;
+        border-radius: var(--border-radius);
+        -webkit-box-shadow: 3px 1px 12px -3px rgba(0, 0, 0, 0.18);
+        box-shadow: 3px 1px 12px -3px rgba(0, 0, 0, 0.18);
+    }
+
+    footer {
+        padding: 0.85rem;
+        margin-bottom: 3rem;
+        border-radius: var(--border-radius);
+    }
+}
+
+/* Tablets (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #cover #title {
+        font-size: 3.5em;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        display: block !important;
+    }
+
+    #wrapper {
+        max-width: 45em;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+
+    #main-section {
+        display: inline-block;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        padding: 1.75rem 3rem 1.75rem 2rem;
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+        border-top-left-radius: var(--border-radius);
+        -webkit-box-shadow: 4px 1px 14px -3px rgba(0, 0, 0, 0.18);
+        box-shadow: 4px 1px 14px -3px rgba(0, 0, 0, 0.18);
+    }
+
+    footer {
+        padding: 1rem;
+        margin-bottom: 4rem;
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
+}

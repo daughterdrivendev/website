@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+scripts: >
+  <script src="https://utteranc.es/client.js" repo="daughterdrivendev/comments" issue-term="pathname" label="" theme="boxy-light" crossorigin="anonymous" async></script>
+---
+{# Only include the syntax highlighter CSS on blog posts, included with the CSS per-page bundle #}
+<style>{% include "node_modules/prismjs/themes/prism-okaidia.css" %}</style>
+<style>{% include "css/prism-diff.css" %}</style>
+
+<section class="post-metadata">
+	<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+	<span class=" postlist-author">•  {{author}}</span>
+	{%- for tag in tags | filterTagList %}
+	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+	{%- endfor %}
+</section>
+<article class="post">
+	{{ content | safe }}
+</article>
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<ul class="links-nextprev">
+	{%- if previousPost %}<li class="links-nextprev-prev">← Previous<br> <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+	{%- if nextPost %}<li class="links-nextprev-next">Next →<br><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+</ul>
+{{ scripts | safe }}
+{%- endif %}
+{%- endif %}

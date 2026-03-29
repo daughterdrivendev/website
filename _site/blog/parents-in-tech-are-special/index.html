@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Why Parents in Tech Are Special.</title>
+		<meta name="description" content="This post talks about what unique skillset we as parents in tech have.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="DaughterDrivenDev">
+		
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-text: sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color:#f0f0f0;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+
+	--border-radius: 8px;
+}
+
+/* SVG Icons */
+:root {
+	--home-light: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20stroke%3D%22%23fff%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20clip-rule%3D%22evenodd%22%20d%3D%22M6%206a2%202%200%200%201%202-2h8a2%202%200%200%201%202%202v12.727c0%20.87-1.034%201.325-1.676.737L12%2015.5l-4.324%203.964c-.642.588-1.676.133-1.676-.737z%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+	--home: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20stroke%3D%22%23000%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20clip-rule%3D%22evenodd%22%20d%3D%22M6%206a2%202%200%200%201%202-2h8a2%202%200%200%201%202%202v12.727c0%20.87-1.034%201.325-1.676.737L12%2015.5l-4.324%203.964c-.642.588-1.676.133-1.676-.737z%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+
+	--post-light: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20stroke%3D%22%23fff%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M12%207.5v12m0-12%201.733-.867A6%206%200%200%201%2016.416%206H19a2%202%200%200%201%202%202v8a2%202%200%200%201-2%202h-2.583a6%206%200%200%200-2.684.633L12%2019.5m0-12-1.733-.867A6%206%200%200%200%207.584%206H5a2%202%200%200%200-2%202v8a2%202%200%200%200%202%202h2.584c.931%200%201.85.217%202.683.633L12%2019.5%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+	--post: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20stroke%3D%22%23fff%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M12%207.5v12m0-12%201.733-.867A6%206%200%200%201%2016.416%206H19a2%202%200%200%201%202%202v8a2%202%200%200%201-2%202h-2.583a6%206%200%200%200-2.684.633L12%2019.5m0-12-1.733-.867A6%206%200%200%200%207.584%206H5a2%202%200%200%200-2%202v8a2%202%200%200%200%202%202h2.584c.931%200%201.85.217%202.683.633L12%2019.5%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+
+	--about-light: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M9%2010h.01M15%2010h.01m-6.475%204A4%204%200%200%200%2012%2016c1.48%200%202.773-.804%203.465-2M12%2020c3.728%200%206.86-2.55%207.748-6H20a2%202%200%201%200%200-4h-.252a8.003%208.003%200%200%200-15.496%200H4a2%202%200%201%200%200%204h.252c.888%203.45%204.02%206%207.748%206%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+	--about: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M9%2010h.01M15%2010h.01m-6.475%204A4%204%200%200%200%2012%2016c1.48%200%202.773-.804%203.465-2M12%2020c3.728%200%206.86-2.55%207.748-6H20a2%202%200%201%200%200-4h-.252a8.003%208.003%200%200%200-15.496%200H4a2%202%200%201%200%200%204h.252c.888%203.45%204.02%206%207.748%206%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+
+	--feed-light: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M12%205.5a5%205%200%200%201%205%205v2.24a2%202%200%200%200%20.505%201.328l1.276%201.436c.86.967.173%202.496-1.121%202.496H6.34c-1.294%200-1.98-1.53-1.12-2.496l1.275-1.436A2%202%200%200%200%207%2012.74V10.5a5%205%200%200%201%205-5m0%200V3m-9%208a8.99%208.99%200%200%201%204-7.484M21%2011a8.99%208.99%200%200%200-4-7.484M11%2021h2%22%20stroke%3D%22%23fff%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+	--feed: url(data:image/svg+xml,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke-width%3D%220%22%2F%3E%3Cg%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3Cpath%20d%3D%22M12%205.5a5%205%200%200%201%205%205v2.24a2%202%200%200%200%20.505%201.328l1.276%201.436c.86.967.173%202.496-1.121%202.496H6.34c-1.294%200-1.98-1.53-1.12-2.496l1.275-1.436A2%202%200%200%200%207%2012.74V10.5a5%205%200%200%201%205-5m0%200V3m-9%208a8.99%208.99%200%200%201%204-7.484M21%2011a8.99%208.99%200%200%200-4-7.484M11%2021h2%22%20stroke%3D%22%23000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E);
+}
+
+/** -----------------
+GLOBAL STYLES 
+------------------- */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	background-color: rgb(247, 245, 242);
+	background-image: radial-gradient(rgb(68, 76, 247) 0.55px, rgb(247, 245, 242) 0.55px);
+	background-size: 11px 11px;
+	min-height: 100vh;
+	padding-bottom: 5rem;
+	overflow-x: hidden;
+}
+
+#wrapper {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+/** -----------------
+RESET CSS 
+------------------- */
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+	background-color: #fcfcfc;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/** -----------------
+TYPOGRAPHY 
+------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  	font-family: "Lato", sans-serif;
+  	text-transform: uppercase;
+	color: #17050F;
+  	font-weight: 400;
+}
+
+h4 {
+	font-style: italic;
+}
+
+/* ------- Horizontal Line -------- */
+hr {
+	opacity: 0.2;
+	border-bottom: 1px solid whitesmoke;
+}
+
+/* ------- general styles -------- */
+p, time, .page-title {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-optical-sizing: auto;
+}
+
+.page-title {
+	padding: 1em 0 0.8em;
+}
+
+/** -----------------
+MAIN LAYOUT 
+------------------- */
+/* ------- MAIN Section -------- */
+#main-section {
+	position: relative;
+	display: block;
+	margin-top: 8rem;
+	margin-bottom: 1rem;
+	background-color: #fcfcfc;
+	border-top-right-radius: var(--border-radius);
+	border-bottom-right-radius: var(--border-radius);
+	-webkit-box-shadow: 5px 1px 16px -3px rgba(0,0,0,0.2);
+	box-shadow: 5px 1px 16px -3px rgba(0,0,0,0.2);
+	padding: 2em 5em 2em 3em;
+	border-top-left-radius: var(--border-radius);
+	border-bottom-left-radius: var(--border-radius);
+}
+
+/* ------- FOOTER -------- */
+footer {
+	border-bottom-left-radius: var(--border-radius);
+	border-bottom-right-radius: var(--border-radius);
+	margin-bottom: 5rem;
+}
+
+footer p {
+	margin-top: 0;
+}
+
+
+/** -----------------
+HEADER 
+------------------- */
+header {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1em;
+	margin: 1rem 0 auto;
+}
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+/** -----------------
+NAVIGATION
+------------------- */
+
+nav {
+	display: block;
+	width: 100%;
+	color: darkblue;
+	border-bottom: 1px dashed rgba(0,0,139,0.2);
+	text-align: right;
+}
+
+.nav {
+	padding-left: 0;
+}
+
+.nav-item {
+	list-style: none;
+	display: inline-block;
+	margin-left: 1.4rem;
+}
+
+.nav a,
+.nav a:hover,
+.nav a:focus,
+.nav a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgba(0,0,139,0.7);
+	letter-spacing: 0.3rem;;
+}
+
+.nav a[href][aria-current="page"] {
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+/** -----------------
+BOOK COVER 
+Index page only
+------------------- */
+
+#cover{
+	display: inline-block;
+	background-color: darkblue;
+	aspect-ratio: 2 / 3;
+	padding: 4rem 3rem 3rem;
+	max-width: 40em;
+}
+
+#cover h2,#cover h3,#cover h4{
+	color: #f5f7f6;
+}
+
+#cover #title {
+	padding-top: 3em;
+	padding-bottom: 1em;
+	font-size: 4.5em;
+	line-height: 1.2em;
+}
+
+#cover #author { font-size: 0.9em;}
+
+#cover #title .thin { font-weight: 300;}
+#cover #title .mid { font-weight: 500;}
+#cover #title .thick { font-weight: 900;}
+
+/** -----------------
+BLOG 
+------------------- */
+/* ------- POST LIST -------- */
+.postlist {
+	counter-reset: start-from var(--postlist-index);
+	list-style: none;
+	padding: 0;
+}
+
+/* ------- POSTLIST ITEMS -------- */
+
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+
+.postlist-item h2 {
+	margin-bottom: 0;
+}
+
+.postlist-metadata {
+	display: block;
+	width: 100%;
+}
+
+.postlist-date,
+.postlist-item:before,
+.postlist-author {
+	font-size: 0.8em;
+	color: var(--color-gray-90);
+	display: inline-block;
+	max-width: 100%;
+	font-weight: 400;
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 400;
+	flex-basis: calc(100% - 1.5rem);
+	padding-right: .5em;
+	text-decoration: none;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+/* ------- POSTS -------- */
+.post h2 {margin-top: 1.4em; font-size: 2em; font-weight: 400;}
+.post h3 {margin-top: 2em; font-size: 1.4em; font-weight: 400;}
+
+/* ------- TAGS -------- */
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+.post-tag.highlight {
+	font-size: 0.8em;
+  	padding-top: 0;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/** -----------------
+DESIGN GIMMICKS
+------------------- */
+/* Highlight marker effect - use with <mark> or .highlight class
+     Note: Previously this was on <em>, but <em> is semantic (stress emphasis).
+     Use .highlight or <mark> for visual highlighting instead. */
+.highlight,
+  mark {
+    font-style: normal;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(221, 183, 120, 0.1),
+      rgba(221, 183, 120, 0.7) 4%,
+      rgba(221, 183, 120, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+
+/*** ---- highlighter for tags in posts ----*/
+
+/* add function for fandom indexes 	*/
+.post-metadata *:nth-child(2) .highlight {
+	background-image: linear-gradient(
+      to right,
+      rgba(98, 225, 0, 0.1),
+      rgba(98, 255, 0, 0.7) 4%,
+      rgba(98, 225, 0, 0.3)
+    );
+}
+
+.post-metadata *:nth-child(3) .highlight {
+	background-image: linear-gradient(
+      to right,
+      rgba(255, 132, 0, 0.1),
+      rgba(255, 132, 0, 0.7) 4%,
+      rgba(255, 132, 0, 0.3)
+    );
+}
+
+.post-metadata *:nth-child(4) .highlight {
+	background-image: linear-gradient(
+      to right,
+      rgba(0, 149, 255, 0.1),
+      rgba(0, 149, 255, 0.7) 4%,
+      rgba(0, 149, 255, 0.3)
+    );
+}
+
+.post-metadata *:nth-child(5) .highlight {
+	background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 255, 0.1),
+      rgba(255, 0, 255, 0.7) 4%,
+      rgba(255, 0, 255, 0.3)
+    );
+}
+
+/* ------- COFFEE STAIN -------- */
+#coffee-stain {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-image: url('../css/coffee-stain.png');
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	z-index: -1;
+	opacity: 50%;
+	display: inline-block;
+	left: -6rem;
+	bottom: -4rem;
+	pointer-events: none;
+}
+
+#coffee-spill {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-image: url('../css/coffee-splatter-9.png');
+	background-size:     cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+	z-index: -1;
+	opacity: 100%;
+	display: inline-block;
+	right: -5rem;
+	bottom: -3rem;
+	pointer-events: none;
+}
+/* ------- STAMP -------- */
+#stamp {
+  overflow: hidden;
+  position: absolute;
+  top: -7.5rem;
+  right: -7.5rem;
+  transform: rotate(50deg);
+}
+
+#stamp 
+  text {
+  fill: darkblue;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-variant-ligatures: none;
+  letter-spacing: 6px;
+  animation: rotate 25s linear infinite;
+  transform-origin: 250px 250px;
+}
+
+#stamp svg{
+  width:15rem;
+  height:15rem;
+}
+
+#stamp  .textcircle {
+  transition: transform 1s cubic-bezier(0.65, 0, 0.35, 1);
+  transform-origin: 250px 250px;
+}
+/* Mobile Styles for Daughter Driven Dev */
+
+/* Hamburger Menu Button - visible on mobile only */
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1000;
+}
+
+.hamburger-box {
+    width: 28px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: darkblue;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hamburger animation when open */
+.hamburger.is-active .hamburger-line:nth-child(1) {
+    transform: translateY(8.5px) rotate(45deg);
+}
+
+.hamburger.is-active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.is-active .hamburger-line:nth-child(3) {
+    transform: translateY(-8.5px) rotate(-45deg);
+}
+
+/* Mobile Navigation Styles (up to 767px) */
+@media screen and (max-width: 767px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 0.5rem;
+    }
+
+    #stamp {
+        top: -4.25rem;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #stamp svg {
+        width: 11rem;
+        height: 11rem;
+    }
+
+    #cover {
+        max-width: 100%;
+        padding: 2rem 1.5rem 1.5rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fcfcfc;
+        padding: 1rem 0;
+        margin-top: 0.5rem;
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav.is-open {
+        display: flex;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 0;
+        padding: 0.75rem 1rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 139, 0.1);
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .nav a {
+        display: block;
+        padding: 0.25rem 0;
+    }
+}
+
+/* Small phones (320px - 480px) */
+@media screen and (max-width: 480px) {
+    #wrapper {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 0.5rem;
+    }
+
+    #main-section {
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+        padding: 1rem;
+        border-radius: var(--border-radius);
+        -webkit-box-shadow: 0 1px 8px -2px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 1px 8px -2px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+        padding: 0.75rem;
+        margin-bottom: 2rem;
+        border-radius: var(--border-radius);
+    }
+}
+
+/* Large phones (481px - 767px) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #cover {
+        max-width: 100%;
+        padding: 2.5rem 2rem 2rem;
+    }
+
+    #cover #title {
+        font-size: 2.5em;
+    }
+
+    #wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    #main-section {
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 0.75rem;
+        padding: 1.5rem 2rem;
+        border-radius: var(--border-radius);
+        -webkit-box-shadow: 3px 1px 12px -3px rgba(0, 0, 0, 0.18);
+        box-shadow: 3px 1px 12px -3px rgba(0, 0, 0, 0.18);
+    }
+
+    footer {
+        padding: 0.85rem;
+        margin-bottom: 3rem;
+        border-radius: var(--border-radius);
+    }
+}
+
+/* Tablets (768px - 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #cover #title {
+        font-size: 3.5em;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        display: block !important;
+    }
+
+    #wrapper {
+        max-width: 45em;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+
+    #main-section {
+        display: inline-block;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+        padding: 1.75rem 3rem 1.75rem 2rem;
+        border-top-right-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+        border-top-left-radius: var(--border-radius);
+        -webkit-box-shadow: 4px 1px 14px -3px rgba(0, 0, 0, 0.18);
+        box-shadow: 4px 1px 14px -3px rgba(0, 0, 0, 0.18);
+    }
+
+    footer {
+        padding: 1rem;
+        margin-bottom: 4rem;
+        border-bottom-left-radius: var(--border-radius);
+        border-bottom-right-radius: var(--border-radius);
+    }
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+		
+		<script defer="" src="https://cloud.umami.is/script.js" data-website-id="0806b293-cfca-4e36-b373-4e25fbd11a88"></script>
+	</head>
+	<body>
+		<section id="wrapper">
+			<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+			<section id="main-section">
+				<header>
+					<div id="stamp">
+						<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+							<title>DaughterDrivenDevelopment - Parents in Tech</title>
+							<defs>
+							<path id="textcircle" d="M250,400
+										a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)"></path>
+							</defs>
+							<g class="textcircle">
+							<text textLength="940">
+								<textPath xlink:href="#textcircle" aria-label="Daughter Driven Development" textLength="940">
+								Daughter Driven Development&nbsp;&#8226&nbsp;
+								</textPath>
+							</text>
+							</g>
+						</svg>
+					</div>
+					<nav>
+						<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+						<button class="hamburger" aria-label="Menu" aria-expanded="false">
+							<span class="hamburger-box">
+								<span class="hamburger-line"></span>
+								<span class="hamburger-line"></span>
+								<span class="hamburger-line"></span>
+							</span>
+						</button>
+			<ul class="nav">
+				<li class="nav-item"><a title="Home" href="/">Home</a></li>
+				<li class="nav-item"><a title="Blog" href="/blog/">Blog</a></li>
+				<li class="nav-item"><a title="About" href="/about/">About</a></li>
+			<li class="nav-item">
+				<a title="subscribe to the newsletter" href="https://buttondown.com/daughterdrivendev" target="_blank" data-umami-event="subscribe-click">Subscribe</a>
+			</li>
+			</ul>
+		</nav>
+				</header>
+				<main id="main">
+					
+
+
+
+<section class="post-metadata">
+	<time class="postlist-date" datetime="2026-03-26">26 March 2026</time>
+	<span class=" postlist-author">•  Ola</span>
+		<a href="/tags/post/" class="post-tag highlight">post</a>
+</section>
+<article class="post">
+	<h2 id="why-parents-in-tech-are-special">Why Parents in Tech Are Special.</h2>
+<p>Have you ever tried debugging a piece of code while a toddler is using your leg as a climbing wall and someone is yelling “I’m hungryyyy” like it’s a system alert? If yes, congratulations. We’re not just parents. We’re parents in tech, which hits completely different.</p>
+<p>There’s something special about people like us who live in both worlds: one full of bugs, builds, and deadlines, and the other full of snacks, bedtime negotiations, and mysterious sticky substances. We don't talk about it enough, but parents in the industry carry a completely unique set of battle-hardened skills that make them exceptional at what they do.</p>
+<h3 id="but-why">But why?</h3>
+<h4 id="we-know-mistakes-are-part-of-life">We know mistakes are part of life.</h4>
+<p>Nobody ships perfect code. Nobody raises a perfect kid. Parents stopped being precious about errors a long time ago. We've served the wrong meal, forgotten the wrong thing, said the wrong word — and then learned, adjusted, and moved forward. Mistakes aren't failures. They're just undocumented features. That mindset makes us better engineers, better collaborators, and much better at not spiralling when something breaks in production.</p>
+<p>We know we will fail. But we also know to try again. We are less frustrated with our failiures and know they simply are part of life.</p>
+<h4 id="we-live-in-fail-fast-cycles-daily">We live in fail-fast cycles — daily.</h4>
+<p>One minute your toddler is screaming because you cut their sandwich into squares instead of triangles. The next, you're their favourite person on Earth because you found their missing sock behind the radiator. Sound familiar? That's just debugging in a onesie. We swing from &quot;I have absolutely no idea what I'm doing&quot; to &quot;I am an unstoppable genius&quot; in under three minutes — before 7am, coffee-free. In tech, that mental agility isn't just useful. It's essential.</p>
+<p>Every day, every moment is just different and we've accepted it. We know how to wing it.</p>
+<h4 id="we-risk-assess-everything-instinctively">We risk-assess everything — instinctively.</h4>
+<p>Is this toy a choking hazard? Is this third-party library actively maintained? Is this shortcut going to cause problems in three months? Same brain, different context. Parents are natural testers. We observe, we hypothesise, we try things carefully, and we roll back when needed. We just do it with snacks nearby.</p>
+<p>Often parents from other circles find our decisions or argumentations odd (e.g.social media, data privacy, phone usage), think we make a fuzz out of nothing. No, we just thought things through and for us, this is the right path.</p>
+<h4 id="we-think-outside-the-box-because-the-box-is-now-a-rocket-ship">We think outside the box... because the box is now a rocket ship.</h4>
+<p>Creative panic is just part of being a parent. When the obvious solution doesn't work, you improvise. You invent. You turn a cardboard box into a spaceship and a problem into an opportunity. That same muscle shows up when you're architecting a solution nobody's thought of yet, or finding a workaround that saves the entire sprint.</p>
+<p>Forgot about that costume for tomorrow and it's 9pm already? You wing it.</p>
+<h4 id="we-manage-time-like-its-critically-endangered">We manage time like it's critically endangered.</h4>
+<p>Nap windows. School runs. Sprint deadlines. Quarterly reviews. Parents optimise ruthlessly because every minute is accounted for. We don't waste meetings. We don't let tasks drift. Time is precious, and we've been trained by the most demanding product managers alive... our kids.</p>
+<p>We simply do not have time browsing social media during working hours. We have this limited time window and we need to get sh*t done.</p>
+<h4 id="we-handle-pressure-without-flinching">We handle pressure without flinching.</h4>
+<p>We've been screamed at by tiny, irrational humans who have no concept of logic, context, or appropriate volume levels. A tense stakeholder meeting? A difficult client call? Honestly, light work.</p>
+<p>Do you also get calmer the more chaos around you errupts?</p>
+<h4 id="we-can-hold-an-enormous-amount-of-pain">We can hold an enormous amount of pain.</h4>
+<p>Sleep deprivation. Emotional exhaustion. Being needed by absolutely everyone, all at once, with nothing left in the tank. Parents have shipped features through all of that. We don't just cope with hard — we've built a house there.</p>
+<p><em>Senior engineer? Sure. But parent-engineer? That's a different league entirely.</em></p>
+<p>Do you agree? We'd love to hear from you.</p>
+<p>Marcin &amp;&amp; Ola</p>
+
+</article>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/winter-is-here/">Winter is here.</a></li>
+</ul>
+<script src="https://utteranc.es/client.js" repo="daughterdrivendev/comments" issue-term="pathname" label="" theme="boxy-light" crossorigin="anonymous" async=""></script>
+
+
+				</main>
+			</section>
+			<footer>
+				<p>
+					<em>Built with <a href="https://www.11ty.dev/">11ty</a></em> · <a href="/feed/feed.xml">Feed</a> · <a href="/imprint/">Imprint</a>
+				</p>
+			</footer>
+		</section>
+
+		<!-- This page `/blog/parents-in-tech-are-special/` was built on 2026-03-27T09:23:24.718Z -->
+		<script type="module" src="/dist/SvW0_tTumP.js"></script>
+		
+	</body>
+</html>
