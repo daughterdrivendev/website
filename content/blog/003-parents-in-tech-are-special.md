@@ -18,7 +18,7 @@ There’s something special about people like us who live in both worlds: one fu
 #### We know mistakes are part of life.
 Nobody ships perfect code. Nobody raises a perfect kid. Parents stopped being precious about errors a long time ago. We've served the wrong meal, forgotten the wrong thing, said the wrong word — and then learned, adjusted, and moved forward. Mistakes aren't failures. They're just undocumented features. That mindset makes us better engineers, better collaborators, and much better at not spiralling when something breaks in production.
 
-We know we will fail. But we also know to try again. We are less frustrated with our failiures and know they simply are part of life.
+We know we will fail. But we also know to try again. We are less frustrated with our failures and know they simply are part of life.
 
 #### We live in fail-fast cycles — daily.
 One minute your toddler is screaming because you cut their sandwich into squares instead of triangles. The next, you're their favourite person on Earth because you found their missing sock behind the radiator. Sound familiar? That's just debugging in a onesie. We swing from "I have absolutely no idea what I'm doing" to "I am an unstoppable genius" in under three minutes — before 7am, coffee-free. In tech, that mental agility isn't just useful. It's essential. 
@@ -29,7 +29,7 @@ Every day, every moment is just different and we've accepted it. We know how to 
 #### We risk-assess everything — instinctively.
 Is this toy a choking hazard? Is this third-party library actively maintained? Is this shortcut going to cause problems in three months? Same brain, different context. Parents are natural testers. We observe, we hypothesise, we try things carefully, and we roll back when needed. We just do it with snacks nearby.
 
-Often parents from other circles find our decisions or argumentations odd (e.g.social media, data privacy, phone usage), think we make a fuzz out of nothing. No, we just thought things through and for us, this is the right path.
+Often parents from other circles find our decisions or argumentations odd (e.g. social media, data privacy, phone usage), think we make a fuss out of nothing. No, we just thought things through and for us, this is the right path.
 
 
 #### We think outside the box... because the box is now a rocket ship.
@@ -45,7 +45,7 @@ We simply do not have time browsing social media during working hours. We have t
 #### We handle pressure without flinching.
 We've been screamed at by tiny, irrational humans who have no concept of logic, context, or appropriate volume levels. A tense stakeholder meeting? A difficult client call? Honestly, light work.
 
-Do you also get calmer the more chaos around you errupts?
+Do you also get calmer the more chaos around you erupts?
 
 #### We can hold an enormous amount of pain.
 Sleep deprivation. Emotional exhaustion. Being needed by absolutely everyone, all at once, with nothing left in the tank. Parents have shipped features through all of that. We don't just cope with hard — we've built a house there.
