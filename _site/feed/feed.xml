@@ -5,11 +5,45 @@
   <subtitle>Daughter Driven Development. Parents in Tech.</subtitle>
   <link href="https://www.daughterdriven.dev/feed/feed.xml" rel="self" />
   <link href="https://www.daughterdriven.dev/" />
-  <updated>2026-01-12T00:00:00Z</updated>
+  <updated>2026-03-26T00:00:00Z</updated>
   <id>https://www.daughterdriven.dev/</id>
   <author>
     <name>Ola Gasidlo-Brändel, Marcin Skirzynski</name>
   </author>
+  <entry>
+    <title>Why Parents in Tech Are Special.</title>
+    <link href="https://www.daughterdriven.dev/blog/parents-in-tech-are-special/" />
+    <updated>2026-03-26T00:00:00Z</updated>
+    <id>https://www.daughterdriven.dev/blog/parents-in-tech-are-special/</id>
+    <content type="html">&lt;h2 id=&quot;why-parents-in-tech-are-special&quot;&gt;Why Parents in Tech Are Special.&lt;/h2&gt;
+&lt;p&gt;Have you ever tried debugging a piece of code while a toddler is using your leg as a climbing wall and someone is yelling “I’m hungryyyy” like it’s a system alert? If yes, congratulations. We’re not just parents. We’re parents in tech, which hits completely different.&lt;/p&gt;
+&lt;p&gt;There’s something special about people like us who live in both worlds: one full of bugs, builds, and deadlines, and the other full of snacks, bedtime negotiations, and mysterious sticky substances. We don&#39;t talk about it enough, but parents in the industry carry a completely unique set of battle-hardened skills that make them exceptional at what they do.&lt;/p&gt;
+&lt;h3 id=&quot;but-why&quot;&gt;But why?&lt;/h3&gt;
+&lt;h4 id=&quot;we-know-mistakes-are-part-of-life&quot;&gt;We know mistakes are part of life.&lt;/h4&gt;
+&lt;p&gt;Nobody ships perfect code. Nobody raises a perfect kid. Parents stopped being precious about errors a long time ago. We&#39;ve served the wrong meal, forgotten the wrong thing, said the wrong word — and then learned, adjusted, and moved forward. Mistakes aren&#39;t failures. They&#39;re just undocumented features. That mindset makes us better engineers, better collaborators, and much better at not spiralling when something breaks in production.&lt;/p&gt;
+&lt;p&gt;We know we will fail. But we also know to try again. We are less frustrated with our failiures and know they simply are part of life.&lt;/p&gt;
+&lt;h4 id=&quot;we-live-in-fail-fast-cycles-daily&quot;&gt;We live in fail-fast cycles — daily.&lt;/h4&gt;
+&lt;p&gt;One minute your toddler is screaming because you cut their sandwich into squares instead of triangles. The next, you&#39;re their favourite person on Earth because you found their missing sock behind the radiator. Sound familiar? That&#39;s just debugging in a onesie. We swing from &amp;quot;I have absolutely no idea what I&#39;m doing&amp;quot; to &amp;quot;I am an unstoppable genius&amp;quot; in under three minutes — before 7am, coffee-free. In tech, that mental agility isn&#39;t just useful. It&#39;s essential.&lt;/p&gt;
+&lt;p&gt;Every day, every moment is just different and we&#39;ve accepted it. We know how to wing it.&lt;/p&gt;
+&lt;h4 id=&quot;we-risk-assess-everything-instinctively&quot;&gt;We risk-assess everything — instinctively.&lt;/h4&gt;
+&lt;p&gt;Is this toy a choking hazard? Is this third-party library actively maintained? Is this shortcut going to cause problems in three months? Same brain, different context. Parents are natural testers. We observe, we hypothesise, we try things carefully, and we roll back when needed. We just do it with snacks nearby.&lt;/p&gt;
+&lt;p&gt;Often parents from other circles find our decisions or argumentations odd (e.g.social media, data privacy, phone usage), think we make a fuzz out of nothing. No, we just thought things through and for us, this is the right path.&lt;/p&gt;
+&lt;h4 id=&quot;we-think-outside-the-box-because-the-box-is-now-a-rocket-ship&quot;&gt;We think outside the box... because the box is now a rocket ship.&lt;/h4&gt;
+&lt;p&gt;Creative panic is just part of being a parent. When the obvious solution doesn&#39;t work, you improvise. You invent. You turn a cardboard box into a spaceship and a problem into an opportunity. That same muscle shows up when you&#39;re architecting a solution nobody&#39;s thought of yet, or finding a workaround that saves the entire sprint.&lt;/p&gt;
+&lt;p&gt;Forgot about that costume for tomorrow and it&#39;s 9pm already? You wing it.&lt;/p&gt;
+&lt;h4 id=&quot;we-manage-time-like-its-critically-endangered&quot;&gt;We manage time like it&#39;s critically endangered.&lt;/h4&gt;
+&lt;p&gt;Nap windows. School runs. Sprint deadlines. Quarterly reviews. Parents optimise ruthlessly because every minute is accounted for. We don&#39;t waste meetings. We don&#39;t let tasks drift. Time is precious, and we&#39;ve been trained by the most demanding product managers alive... our kids.&lt;/p&gt;
+&lt;p&gt;We simply do not have time browsing social media during working hours. We have this limited time window and we need to get sh*t done.&lt;/p&gt;
+&lt;h4 id=&quot;we-handle-pressure-without-flinching&quot;&gt;We handle pressure without flinching.&lt;/h4&gt;
+&lt;p&gt;We&#39;ve been screamed at by tiny, irrational humans who have no concept of logic, context, or appropriate volume levels. A tense stakeholder meeting? A difficult client call? Honestly, light work.&lt;/p&gt;
+&lt;p&gt;Do you also get calmer the more chaos around you errupts?&lt;/p&gt;
+&lt;h4 id=&quot;we-can-hold-an-enormous-amount-of-pain&quot;&gt;We can hold an enormous amount of pain.&lt;/h4&gt;
+&lt;p&gt;Sleep deprivation. Emotional exhaustion. Being needed by absolutely everyone, all at once, with nothing left in the tank. Parents have shipped features through all of that. We don&#39;t just cope with hard — we&#39;ve built a house there.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Senior engineer? Sure. But parent-engineer? That&#39;s a different league entirely.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Do you agree? We&#39;d love to hear from you.&lt;/p&gt;
+&lt;p&gt;Marcin &amp;amp;&amp;amp; Ola&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Winter is here.</title>
     <link href="https://www.daughterdriven.dev/blog/winter-is-here/" />
