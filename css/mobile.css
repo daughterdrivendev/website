@@ -71,10 +71,6 @@
         padding: 2rem 1.5rem 1.5rem;
     }
 
-    #cover #title {
-        font-size: 2.5em;
-    }
-
     .nav {
         display: none;
         flex-direction: column;
@@ -140,10 +136,6 @@
         padding: 2.5rem 2rem 2rem;
     }
 
-    #cover #title {
-        font-size: 2.5em;
-    }
-
     #wrapper {
         max-width: 100%;
         margin: 0 auto;
@@ -169,10 +161,6 @@
 
 /* Tablets (768px - 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    #cover #title {
-        font-size: 3.5em;
-    }
-
     .hamburger {
         display: none;
     }
